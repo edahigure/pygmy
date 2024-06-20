@@ -3,7 +3,7 @@ aiosignal==1.2.0
 asgiref==3.5.2
 async-timeout==4.0.2
 attrs==21.4.0
-backports.zoneinfo==0.2.1
+backports.zoneinfo;python_version<"3.9"
 bcrypt==3.2.2
 certifi==2022.6.15
 cffi==1.15.1
@@ -39,3 +39,4 @@ Werkzeug==2.1.2
 yarl==1.7.2
 zipp==3.8.0
 django-cors-headers==3.13.0
+
